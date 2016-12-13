@@ -1,0 +1,29 @@
+body {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+#cellgame {
+  padding:2em;
+  text-align: center;
+}
+
+.cellOn {
+    display: inline-block;
+    border-style: outset;
+    background-color: #9E9E9E;
+    height: 48px;
+    width: 48px;
+}
+
+.cellOff {
+    display: inline-block;
+    border-style: outset;
+    background-color: #D7CCC8;
+    height: 48px;
+    width: 48px;
+}
+
+.cellOn:hover,.cellOff:hover {
+    opacity:0.5;
+}
